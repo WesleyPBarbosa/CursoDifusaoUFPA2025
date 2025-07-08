@@ -1,5 +1,6 @@
 {
     "ecl.forceProxySupport": true,
     "ecl.launchConfiguration": "TrainingCluster",
-    "ecl.targetCluster": {}
+    "ecl.targetCluster": {},
+    "ecl.eclccPath": "/opt/HPCCSystems/bin/eclcc"
 }
