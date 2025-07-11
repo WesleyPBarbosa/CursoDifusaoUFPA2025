@@ -26,4 +26,4 @@ UID_Persons_r AddRecID(Persons Pa, UNSIGNED cnt) := TRANSFORM
  END;
 
 
-EXPORT UID_Persons := PROJECT($.File_Persons.File, AddRecID(LEFT,COUNTER)):PERSIST('~CLASS::WPB::UID_Persons');
+EXPORT UID_Persons := PROJECT($.File_Persons.File, AddRecID(LEFT,COUNTER)):PERSIST('~CLASS::WPB::PERSIST::UID_Persons');
